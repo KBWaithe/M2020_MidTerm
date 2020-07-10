@@ -13,6 +13,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
             <i class="fa fa-globe fa-lg"></i>
@@ -26,16 +27,40 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#mainContent">
-                        <i class="fa fa-map-signs fa-lg"></i> Tour</a>
+                        <i class="fas fa-camera"></i></i> Tour</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">
-                        <i class="fa fa-envelope fa-lg"></i> Contact</a>
+                        <i class="fas fa-address-card"></i></i> Contact</a>
                 </li>
             </ul>
 
         </div>
     </nav>
+</header>
+
+    <div class="carousel-container">
+        <i class="fas fa-arrow-left" id="prevBtn"></i>
+        <i class="fas fa-arrow-right" id="nextBtn"></i>
+        <div class="carousel-slide">
+            <img src="./Assets/images/gavdos.jpg" id="lastClone" alt="">
+            <img src="./Assets/images/folegandros.jpg" alt="">
+            <img src="./Assets/images/alonissos.jpg" alt="">
+            <img src="./Assets/images/spetses.jpg" alt="">
+            <img src="./Assets/images/amorgos.jpg" alt="">
+            <img src="./Assets/images/syros.jpg" alt="">
+            <img src="./Assets/images/milos.jpg" alt="">
+            <img src="./Assets/images/hydra.jpg" alt="">
+            <img src="./Assets/images/ithaca.jpg" alt="">
+            <img src="./Assets/images/gavdos.jpg" alt="">
+            <img src="./Assets/images/folegandros.jpg" id="firstClone" alt="">
+        </div>
+    </div>
+
+  
+
+
+
 
     <!-- MAIN CONTENT SECTION -->
     <main class="container" id="mainContent">
@@ -194,7 +219,7 @@
     <div class="container">
         <footer>
             <nav class="navbar fixed-bottom navbar-light bg-light">
-                <h4>&copy; Copyright 2018 - The Travel Report</h4>
+                <h4>&copy; Copyright 2020 - The Travel Report</h4>
             </nav>
         </footer>
     </div>
